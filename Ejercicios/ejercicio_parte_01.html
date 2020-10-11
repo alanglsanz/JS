@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ejercicio_01</title>
+	<script src="js_ejercicio_01.js"></script>
+</head>
+<body>
+ <!--EJERCICIO O1_a-->
+	<label for="">Valor1</label> <input type="number" name="valor1" id="valor1">
+	<label for="">Valor2</label> <input type="number" name="valor2" id="valor2">
+	<button onclick="Multiplicar(document.getElementById('valor1').value , document.getElementById('valor2').value)" >Multiplicar</button>
+	<p id='visorResultado'></p> <hr/><br>
+
+
+
+
+<!--EJERCICIO O1_b-->
+
+	<label for="">Valor1</label> <input type="number" name="numero1" id="numero1">
+	<label for="">Valor2</label> <input type="number" name="numero2" id="numero2">
+
+	<button onclick="CompararValores(document.getElementById('numero1').value , document.getElementById('numero2').value)" >Comparar Valores</button>
+	<p id='visorComparacion'></p> <hr/><br>
+
+
+	<!--EJERCICIO O1_c-->
+
+	<label for="">Nombre</label> <input type="text" name="nombre1" id="nombre1">
+	<label for="">Apellido</label> <input type="text" name="nombre2" id="nombre2">
+
+	<button onclick="ConcatenarNombres(document.getElementById('nombre1').value , document.getElementById('nombre2').value)" >Nombre y Apellido</button>
+	<p id='visorConcatenacion'></p> <hr/><br>
+																					
+
+	<!--EJERCICIO O1_d-->
+
+	<label for="">Monto</label> <input type="number" name="monto" id="monto">
+	<label for="">Medio de Pago</label> <input type="text" name="medioPago" id="medioPago">
+
+	<button onclick="CalcularMontoAPagar(document.getElementById('monto').value , document.getElementById('medioPago').value)" >Calcular monto final</button>
+	<p id='visorMontoFinal'></p> <hr/><br>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

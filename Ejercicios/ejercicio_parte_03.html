@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ejercicio_parte_03</title>
+	<script src="ejercicio_parte_03.js"> </script>
+</head>
+<body>
+	<div id="07" class="container p-5 mt-5 mb-5"style="background-color: #eee;">
+        <h4 class=" col-sm-12  p-1 pr-4 pl-4 d-inline text-white bg-dark ">Promedio</h4>
+        <div class=" row pt-5  ">
+            <div class="col-sm-6 form-group ">
+                <h6><u>Importante</u></h6>
+                <ol>
+                    <li>Introduzca cantidad de numeros que ingresara al programa.</li>
+                    <li>Haga "click" en el boton inicio para continuar.</li>
+                </ol>
+                <label for="numero">Cantidad de ingresos</label>
+                <input class="form-control" type="number" name="numero" id="numero"  >
+                <button  type="button" onclick='promedio(document.getElementById("numero").value)' class=" btn btn-dark mt-3" >Inicio</button>
+                   
+            </div>
+            <div class="col-sm-12 col-xl-6 pl-2 text-center align-content-center justify-content-center" >
+                <p  id="resultado" style="font-size: 2rem;" ></p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

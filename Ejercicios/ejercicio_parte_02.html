@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejercicio2</title>
+
+	<script src="./ejercicio_parte_02.js"></script>	
+</head>
+<body>
+
+	<!--EJERCICIO_02_a-->
+
+	<!--UNA MANERA DE HACERLO//CON ONCHANGE-->
+
+	<!-- <input type="number" id="altura" onchange="DibujarArbol(document.getElementById('altura').value)">  -->
+
+
+	<!--OTRA MANERA DE HACERLO//BUTTON-ONCLICK-->
+
+	<input type="number" id="altura" button onclick="DibujarArbol(document.getElementById('altura').value)"> 
+	
+	<button onclick="DibujarArbol(document.getElementById('altura').value)"> Dibujar Arbol</button>
+
+	<div id="arbol"><br><hr>
+
+
+	<!--EJERCICIO_02_b-->
+
+	<label for="">Numero del dia de la semana</label> <input type="number" name="numeroDia" id="numeroDia">
+	
+	<button onclick="MostrarNombreDia(document.getElementById('numeroDia').value)" >Mostrar el nombre del dia</button>
+	<p id='visorNombreDia'></p> <hr/><br>
+
+
+
+
+
+
+
+</body>
+</html>
